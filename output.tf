@@ -4,7 +4,7 @@
 
 output "vpc_id" {
   description = "ID of the Demo VPC"
-  value       = aws_vpc.bharadwaj-VPC.id
+  value       = aws_vpc.bharadwaj_VPC.id
 }
 
 output "nat_gateway_id" {
@@ -49,5 +49,5 @@ output "web_server_public_ip" {
 
 output "s3_bucket_name" {
   description = "Name of the demo S3 bucket"
-  value       = aws_s3_bucket.demo_bucket.bucket
+  value       = aws_s3_bucket.bharadwaj_s3_bucket.bucket
 }
